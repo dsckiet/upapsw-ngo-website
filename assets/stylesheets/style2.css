@@ -1,0 +1,148 @@
+body { 
+  margin: 0px;
+}
+
+.sidenav {
+  font-size: 30px;
+  height: 100%;
+  width: 16%;
+  position: fixed;
+  z-index: 1;
+  top: 62px;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background: #151B26;
+}
+
+.sidenav a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  color: teal;
+  margin: 5%;
+  font-weight: 800;
+  margin-bottom: 16%;
+}
+
+.sidenav .faq {
+  color: #0DAC9F;
+  border: 2px solid teal;
+  border-radius: 7px;
+  line-height: 35px;
+  padding-left: 7px;
+}
+
+.sidenav a:hover {
+  color: #0DAC9F;
+}
+
+.topnav {
+  top: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1;
+  width:100%;
+}
+
+.sidenav, .topnav {
+	box-shadow: 0 0.02rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin: 0%;
+}
+
+img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.main {
+  padding-left: 20%;
+  padding-top: 8%;
+  padding-right: 4%;
+}
+
+.accordion > input[type="checkbox"] {
+  position: absolute;
+  left: -100vw;
+}
+
+.accordion .content {
+  overflow-y: hidden;
+  height: 0;
+  transition: height 0.3s ease;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+  height: auto;
+  overflow: visible;
+}
+
+.accordion label {
+  display: block;
+}
+
+.accordion {
+  margin-bottom: 1em;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+  padding: 15px;
+  border: 1px solid #151B26;
+  border-top: 0;
+}
+
+.accordion .handle {
+  margin: 0;
+  font-size: 1.125em;
+  line-height: 1.2em;
+}
+
+.accordion label {
+  color: teal;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 15px;
+  background: #151B26;
+}
+
+.accordion label:hover,
+.accordion label:focus {
+  background: #151B26;
+  color: #0DAC9F;
+}
+
+.accordion .handle label:before {
+  font-family: 'fontawesome';
+  content: "\f054";
+  display: inline-block;
+  margin-right: 10px;
+  font-size: .58em;
+  line-height: 1.556em;
+  vertical-align: middle;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .handle label:before {
+  content: "\f078";
+}
+
+
+h1 {
+  margin: 0 0 1.5em;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.accordion {
+  max-width: 100em;
+}
+
+.accordion p:last-child {
+  margin-bottom: 0;
+}

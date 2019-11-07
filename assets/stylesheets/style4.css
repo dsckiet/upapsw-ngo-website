@@ -1,0 +1,69 @@
+body { 
+  margin: 0px;
+}
+
+.sidenav {
+  font-size: 30px;
+  height: 100%;
+  width: 16%;
+  position: fixed;
+  z-index: 1;
+  top: 62px;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background: #151B26;
+}
+
+.sidenav a {
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  color: teal;
+  margin: 5%;
+  font-weight: 800;
+  margin-bottom: 16%;
+}
+
+.sidenav .objective {
+  color: #0DAC9F;
+  border: 2px solid teal;
+  border-radius: 7px;
+  line-height: 35px;
+  padding-left: 7px;
+}
+
+.sidenav a:hover {
+  color: #0DAC9F;
+}
+
+.topnav {
+  top: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 1;
+  width:100%;
+}
+
+.sidenav, .topnav {
+	box-shadow: 0 0.02rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 0px;
+  margin: 0%;
+}
+
+img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.main {
+  padding-left: 20%;
+  padding-top: 8%;
+  padding-right: 4%;
+}
