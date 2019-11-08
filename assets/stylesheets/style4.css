@@ -1,5 +1,8 @@
 body { 
   margin: 0px;
+  font-family: 'Poppins';
+  height: 100%;
+  background: #DCDCDC;
 }
 
 .sidenav {
@@ -66,4 +69,5 @@ img {
   padding-left: 20%;
   padding-top: 8%;
   padding-right: 4%;
+  background: #DCDCDC; height: 85vh;
 }
