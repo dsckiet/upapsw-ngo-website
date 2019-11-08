@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 
 body {
   overflow-x: hidden;
-  font-family: Merriweather;
+  font-family: Nunito;
 }
 
 .side-panel ul {
@@ -133,6 +133,16 @@ ul li .active {
   font-weight: 700;
   /* background: #151b26; */
 }
-/* .fa-facebook:hover .fb-text {
-        display: block;
-    } */
+
+ol li {
+  margin-bottom: 12px;
+}
+
+.avatar-lg {
+  width: 10rem;
+  height: 10rem;
+}
+
+.btn-primary {
+  width: 100%;
+}
