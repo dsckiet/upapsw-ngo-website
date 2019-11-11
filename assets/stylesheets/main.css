@@ -5,6 +5,11 @@ body {
   font-family: Nunito;
 }
 
+/* .container {
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+
 .side-panel ul {
   padding: 0;
 }
@@ -145,4 +150,9 @@ ol li {
 
 .btn-primary {
   width: 100%;
+}
+
+footer a {
+  color: #ffffff!important;
+  text-decoration: none;
 }
